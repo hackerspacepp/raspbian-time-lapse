@@ -15,6 +15,18 @@
 * __Lens 1__ - Magnetic Telephoto 2x Lens
 * __Lens 2__ - Magnetic Wide Angle Lens
 
+## Considerations
+
+* Place behind window to avoid dealing with weather issues.
+* Place close to window surrounded by black fabric to minimize
+  reflection in window and ambient lighting.
+* Avoid using tape to place camera.
+* Needs software alarm to detect if camera has is face down or have been
+  moved. Also check time of day.
+* Focus on mornings and afternoons.
+* Needs monitoring to detect if syncing has stopped or device has become
+  unavailable.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/hackerspacepp/raspbian-time-lapse. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
