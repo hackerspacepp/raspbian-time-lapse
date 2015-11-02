@@ -26,6 +26,7 @@
 * Focus on mornings and afternoons.
 * Needs monitoring to detect if syncing has stopped or device has become
   unavailable.
+* Camera should be hung from the top of the window or ceiling.
 
 ## Contributing
 
