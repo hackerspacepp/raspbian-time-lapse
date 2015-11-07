@@ -28,6 +28,17 @@
   unavailable.
 * Camera should be hung from the top of the window or ceiling.
 
+## Problems
+* Unable to rotate image on-the-fly. Camera needs to be oriented
+  top-down (vertical and horizontal flip possible).
+* Need hi-quality Wifi Dongle, connectivity to file-system while
+  capturing is very slow (Solved).
+
+## Adjustable Parameters
+* Exposure
+* Shutter Speed
+* White Balance
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/hackerspacepp/raspbian-time-lapse. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](contributor-covenant.org) code of conduct.
