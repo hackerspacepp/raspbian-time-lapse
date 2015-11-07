@@ -15,6 +15,27 @@
 * __Lens 1__ - Magnetic Telephoto 2x Lens
 * __Lens 2__ - Magnetic Wide Angle Lens
 
+## Scripts
+
+`camera.sh` takes the photo.
+```bash
+#!/bin/bash
+
+DATE=$(date +"%Y-%m-%d_%H%M%S")
+
+raspistill -o /home/pi/camera/$DATE.jpg
+```
+
+`time-lapse.sh` runs `camera.sh` every second.
+```bash
+#!/bin/bash
+
+while true; do
+./camera.sh
+sleep 1
+done
+```
+
 ## Considerations
 
 * Place behind window to avoid dealing with weather issues.
@@ -33,6 +54,7 @@
   top-down (vertical and horizontal flip possible).
 * Need hi-quality Wifi Dongle, connectivity to file-system while
   capturing is very slow (Solved).
+* Crontab not an option, resolution too low (minutes).
 
 ## Adjustable Parameters
 * Exposure
