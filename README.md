@@ -50,8 +50,6 @@ done
 * Camera should be hung from the top of the window or ceiling.
 
 ## Problems
-* Unable to rotate image on-the-fly. Camera needs to be oriented
-  top-down (vertical and horizontal flip possible).
 * Need hi-quality Wifi Dongle, connectivity to file-system while
   capturing is very slow (Solved).
 * Crontab not an option, resolution too low (minutes).
