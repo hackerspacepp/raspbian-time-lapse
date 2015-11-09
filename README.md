@@ -21,19 +21,7 @@
 ```bash
 #!/bin/bash
 
-DATE=$(date +"%Y-%m-%d_%H%M%S")
-
-raspistill -o /home/pi/camera/$DATE.jpg
-```
-
-`time-lapse.sh` runs `camera.sh` every second.
-```bash
-#!/bin/bash
-
-while true; do
-./camera.sh
-sleep 1
-done
+raspistill -q 95 -tl 2000 -t 0 -rot 270 -o images/image%d.jpg
 ```
 
 ## Considerations
