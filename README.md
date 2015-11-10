@@ -21,7 +21,7 @@
 ```bash
 #!/bin/bash
 
-raspistill -q 95 -tl 2000 -t 0 -rot 270 -o images/image%d.jpg
+raspistill -q 15 -tl 2000 -t 0 -o images/image%d.jpg
 ```
 
 ## Considerations
