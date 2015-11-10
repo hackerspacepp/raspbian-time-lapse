@@ -21,8 +21,16 @@
 ```bash
 #!/bin/bash
 
-raspistill -q 15 -tl 2000 -t 0 -o images/image%d.jpg
+raspistill -q 15 -tl 2000 -t 0 -o images/image%06d.jpg
 ```
+
+## Time-lapse video
+
+Create time-lapse video from images.
+
+      $ brew install ffmpeg
+      $ cd images
+      $ ffmpeg -framerate 30 -i image%046.jpg -c:v libx264 -r 30 outputfile.mp4
 
 ## Considerations
 
