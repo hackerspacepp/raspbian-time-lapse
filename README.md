@@ -14,6 +14,7 @@
 * __SD Card__ - 8GB MicroSD Card
 * __Lens 1__ - Magnetic Telephoto 2x Lens
 * __Lens 2__ - Magnetic Wide Angle Lens
+* __Lets 3__ - Fisheye Lens
 
 ## Scripts
 
@@ -21,7 +22,7 @@
 ```bash
 #!/bin/bash
 
-raspistill -q 15 -tl 2000 -t 0 -o images/image%06d.jpg
+raspistill -q 15 -tl 1000 -t 0 -o images/image%06d.jpg
 ```
 
 ## Time-lapse video
@@ -32,7 +33,7 @@ Create time-lapse video from images.
     $ cd images
     $ ffmpeg -framerate 30 -i image%046.jpg -c:v libx264 -r 30 outputfile.mp4
 
-With the `-tl` setting on `raspistill` to `1000ms` the camera drops
+With the `-tl` setting on `raspistill` set to `1000ms` the camera drops
 frames occationally which causes `ffmpeg` to fail since it's expecting a
 complete sequence of images. This can be fixed by using a wildcard:
 
@@ -60,6 +61,11 @@ complete sequence of images. This can be fixed by using a wildcard:
 * Exposure
 * Shutter Speed
 * White Balance
+
+## TODO
+
+* Backup images to online storage periodically.
+* Rotate images (keep new, delete old).
 
 ## Contributing
 
