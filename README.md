@@ -31,12 +31,6 @@ Create time-lapse video from images.
 
     $ brew install ffmpeg
     $ cd images
-    $ ffmpeg -framerate 30 -i image%046.jpg -c:v libx264 -r 30 outputfile.mp4
-
-With the `-tl` setting on `raspistill` set to `1000ms` the camera drops
-frames occationally which causes `ffmpeg` to fail since it's expecting a
-complete sequence of images. This can be fixed by using a wildcard:
-
     $ ffmpeg -framerate 30 -i %*.jpg -c:v libx264 -r 30 outputfile.mp4
 
 ## Considerations
