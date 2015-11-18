@@ -60,6 +60,10 @@ Create time-lapse video from images.
 
 * Backup images to online storage periodically.
 * Rotate images (keep new, delete old).
+* Use [Nimbius](http://cloudnimbus.org/) running on second RPi with
+  external hard-drive as store.
+* Create and archive time-lapse videos on backup devise.
+* Switch to 32GB SD-card on camera devise.
 
 ## Contributing
 
