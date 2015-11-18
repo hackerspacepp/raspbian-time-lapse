@@ -31,7 +31,7 @@ Create time-lapse video from images.
 
     $ brew install ffmpeg
     $ cd images
-    $ ffmpeg -framerate 30 -i %*.jpg -c:v libx264 -r 30 outputfile.mp4
+    $ ffmpeg -framerate 30 -pattern_type glob -i '*.jpg' -c:v libx264 -r 30 outputfile.mp4
 
 ## Considerations
 
