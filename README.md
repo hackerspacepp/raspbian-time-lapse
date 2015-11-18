@@ -62,7 +62,7 @@ Create time-lapse video from images.
   [ownCloud](https://owncloud.org/) running on second RPi with
   external hard-drive as store.
 * Create and archive time-lapse videos on backup device.
-* Switch to 32GB SD-card on camera devise.
+* Switch to 32GB SD-card on camera device.
 
 ## Contributing
 
