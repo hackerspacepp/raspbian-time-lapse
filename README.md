@@ -58,7 +58,8 @@ Create time-lapse video from images.
 
 ## TODO
 
-* Use [Nimbius](http://cloudnimbus.org/) running on second RPi with
+* Use [Nimbius](http://cloudnimbus.org/) or
+  [ownCloud](https://owncloud.org/) running on second RPi with
   external hard-drive as store.
 * Create and archive time-lapse videos on backup device.
 * Switch to 32GB SD-card on camera devise.
