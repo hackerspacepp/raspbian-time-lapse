@@ -61,6 +61,7 @@ Create time-lapse video from images.
 * Use [Nimbius](http://cloudnimbus.org/) or
   [ownCloud](https://owncloud.org/) running on second RPi with
   external hard-drive as store.
+* Use [mirall](http://download.owncloud.com/download/mirall-1.7.0.tar.bz2) ownCloud client to sync data.
 * Create and archive time-lapse videos on backup device.
 * Switch to 32GB SD-card on camera device.
 
