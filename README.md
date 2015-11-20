@@ -64,6 +64,8 @@ Create time-lapse video from images.
 * Use [mirall](http://download.owncloud.com/download/mirall-1.7.0.tar.bz2) ownCloud client to sync data.
 * Create and archive time-lapse videos on backup device.
 * Switch to 32GB SD-card on camera device.
+* Camera-script should archive shots in directories by date.
+* Time-lapse script should create videos from archived directories.
 
 ## Contributing
 
