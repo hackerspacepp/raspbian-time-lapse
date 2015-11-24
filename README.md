@@ -16,6 +16,9 @@
 * __Lens 2__ - Magnetic Wide Angle Lens
 * __Lets 3__ - Fisheye Lens
 
+## Software
+[http://elinux.org/RPi-Cam-Web-Interface](http://elinux.org/RPi-Cam-Web-Interface)
+
 ## Scripts
 
 `camera.sh` takes the photo.
